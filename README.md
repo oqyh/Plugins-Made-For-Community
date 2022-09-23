@@ -1,8 +1,3 @@
-# Plugins-Made-For-Community
-Plugins Requested From Community
-
-
-
 # Plugins Requested From Community
 https://forums.alliedmods.net/forumdisplay.php?f=107
 

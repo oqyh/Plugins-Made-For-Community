@@ -18,6 +18,7 @@
 #define HiderHUD_INVEHICLE			( 1<<10 )
 #define HiderHUD_BONUS_PROGRESS		( 1<<11 )	// Hide bonus progress display (for bonus map challenges)
 #define HiderHUD_BITCOUNT			12
+#define HiderHUD_CSGO_RADAR                    ( 1<<12 )
 
 public Plugin myinfo = 
 {
@@ -60,6 +61,7 @@ stock void DisplayHUD(int client, int iItem = 0)
 	g_hMenuHUD.AddItem("HiderHUD_INVEHICLE", IsFlagSet(client, HiderHUD_INVEHICLE)         ? "✓ INVEHICLE"         : "INVEHICLE");
 	g_hMenuHUD.AddItem("HiderHUD_BONUS_PROGRESS", IsFlagSet(client, HiderHUD_BONUS_PROGRESS)    ? "✓ BONUS_PROGRESS"    : "BONUS_PROGRESS");
 	g_hMenuHUD.AddItem("HiderHUD_BITCOUNT", IsFlagSet(client, HiderHUD_BITCOUNT)    ? "✓ BITCOUNT"    : "BITCOUNT");
+	g_hMenuHUD.AddItem("HiderHUD_CSGO_RADAR", IsFlagSet(client, HiderHUD_CSGO_RADAR)    ? "✓ RADAR"    : "RADAR");
 	g_hMenuHUD.DisplayAt(client, iItem, MENU_TIME_FOREVER);
 }
 
@@ -94,6 +96,7 @@ public int MenuHUDHandler(Menu menu, MenuAction action, int param1, int param2)
 			case 10: HiderHUD ^= HiderHUD_INVEHICLE;
 			case 11: HiderHUD ^= HiderHUD_BONUS_PROGRESS;
 			case 12: HiderHUD ^= HiderHUD_BITCOUNT;
+			case 13: HiderHUD ^= HiderHUD_CSGO_RADAR;
 		}
 		
 		SetEntProp(param1, Prop_Send, "m_iHideHUD", HiderHUD);

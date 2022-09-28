@@ -1,0 +1,25 @@
+"Phrases"
+{
+	"Tag"
+	{
+		"en"		"--> "
+	}
+	
+	"PrintMessage"
+	{
+		"#format"	"{1:i}"
+		"en"		"Prop Health: {1}"
+	}
+	
+	"PropInfo"
+	{
+		"#format"	"{1:s},{2:i},{3:i}"
+		"en"		"(Model: {1}) (Prop Health: {2}) (Prop Index: {3})"
+	}
+	
+	"PropInvalid"
+	{
+		"#format"	"{1:i}"
+		"en"		"Prop is either a player or invalid. (Prop Index: {1})"
+	}
+}

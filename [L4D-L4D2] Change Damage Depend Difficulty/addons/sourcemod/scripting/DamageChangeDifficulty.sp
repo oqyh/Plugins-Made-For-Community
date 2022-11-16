@@ -19,7 +19,7 @@ public Plugin myinfo =
 
 public OnPluginStart()
 {
-    g_modifyw = CreateConVar("sm_dmg_weapon", "weapon_tank_claw", "Which weapon do you want to modify damage check link for info https://github.com/oqyh/Plugins-Made-For-Community/tree/main/%5BL4D2%5D%20Change%20Damage%20Depend%20Difficulty/weapons_ids");
+    g_modifyw = CreateConVar("sm_dmg_weapon", "weapon_tank_claw", "Which weapon do you want to modify damage check link for info https://github.com/oqyh/Plugins-Made-For-Community/tree/main/%5BL4D-L4D2%5D%20Change%20Damage%20Depend%20Difficulty/weapons_ids");
     g_clawdamageOnEasy = CreateConVar("sm_dmg_easy", "10.0", "Damage on Easy");
     g_clawdamageOnNormal = CreateConVar("sm_dmg_normal", "30.0", "Damage on Normal");
     g_clawdamageOnHard = CreateConVar("sm_dmg_hard", "60.0", "Damage on Hard");

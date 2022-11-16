@@ -1,0 +1,11 @@
+weapon_ammo
+weapon_autoshotgun
+weapon_first_aid_kit
+weapon_hunting_rifle
+weapon_molotov
+weapon_pain_pills
+weapon_pipe_bomb
+weapon_pistol
+weapon_pumpshotgun
+weapon_rifle
+weapon_smg

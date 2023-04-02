@@ -14,7 +14,7 @@
 	
 	"kickblockerping"
 	{
-		"en"		" status not allowed"
+		"en"		" ping not allowed"
 	}
 	
 	"kickblockerstatus"

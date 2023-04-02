@@ -3,6 +3,11 @@
 ### StatusPing Blocker ( Block status, Block ping, in console game with log )
 
 
+## .:[ Requirements ]:.
+```
+1- PtaH (https://github.com/komashchenko/PTaH)
+```
+
 ## .:[ ConVars ]:.
  ```
 //##  Enable Status/Ping Blocker Plugin

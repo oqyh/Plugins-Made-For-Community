@@ -5,7 +5,7 @@
 
 ## .:[ Requirements ]:.
 ```
-1- PtaH (https://github.com/komashchenko/PTaH)
+1- PTaH (https://github.com/komashchenko/PTaH)
 ```
 
 ## .:[ ConVars ]:.

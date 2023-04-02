@@ -1,0 +1,24 @@
+"Phrases"
+{
+	"printclientblocker"
+	{
+		"#format"	"{1:N},{2:s}" // {1} client name, {2} steamid
+		"en"		" {green}[SND Blocker] {purple}{1} [{2}] {darkred}tried to ping in console."
+	}
+	
+	"statusclientblocker"
+	{
+		"#format"	"{1:N},{2:s}" // {1} client name, {2} steamid
+		"en"		" {green}[SND Blocker] {purple}{1} [{2}] {darkred}tried to status in console."
+	}
+	
+	"kickblockerping"
+	{
+		"en"		" status not allowed"
+	}
+	
+	"kickblockerstatus"
+	{
+		"en"		" status not allowed"
+	}
+}

@@ -64,7 +64,6 @@ public void OnClientPutInServer(int client)
     SDKHook(client, SDKHook_OnTakeDamage, OneHitDamage);
 }
 
-
 public void OnConfigsExecuted()
 {
     bSound = GetConVarInt(Sound);
@@ -121,7 +120,6 @@ public Action Event_PlayerDeath_Pre(Handle event, const char[] name, bool dontBr
     
     return Plugin_Continue;
 }
-
 
 
 public Action OneHitDamage(int victim, int &attacker, int &inflictor, float &damage, int &damagetype)

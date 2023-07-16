@@ -1,8 +1,0 @@
-"Phrases"
-{
-	"Suicide"
-	{
-		"#format"		"{1:i}" //{1} is how much negative money
-		"en"			"{green}[PS] {grey}Suicide Not Allowed {darkred}-{1}"
-	}
-}
